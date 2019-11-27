@@ -10,7 +10,7 @@ The idea behind the conceptual model is to represent comprehensive model for org
 
 JYVSECTEC and our experts have gained a lot experience and knowledge by organizing cyber exercises and trainings for government and private companies past 10 years. This experience has helped us to create a new comprehensive model how organizations should be prepared against cyber attacks and cyber crimes. Even though overview of the model might seem difficult to comprehend, our aim is to provide detailed information and examples how each section of the model can be implemented in organizations. The goal of the model is to integrate traditional cyber security with incident response and threat hunting as a one complete model for preventing, hunting, and responding to threats. Important part of the model is to utilize continuous development of the organization’s capabilities to defend the business.
 
-This model is made available for everyone to utilize in their organization and we are more than happy to welcome any criticism, improvements, ideas, notes, and feedback of the model.
+This model is made available for everyone to utilize in their organization and we are more than happy to welcome any criticism, improvements, ideas, notes, and feedback of the model. If you have any input, please leave an issue on this Github page.
 
 ## 1. Preparations
 The model starts with preparations that are critical for organization to able protect their critical assets and business services. These preparations include (but are not limited to) essential processes, technologies, and procedures to manage the environment and prepare for handling the attacks.

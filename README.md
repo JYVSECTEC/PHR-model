@@ -1,5 +1,5 @@
 # Prepare, Hunt, and Respond
-Prepare, Hunt, and Respond - Conceptual model against cyber attack by [JYVSECTEC](https://jyvsectec.fi)
+Prepare, Hunt, and Respond - Conceptual model against cyber attacks by [JYVSECTEC](https://jyvsectec.fi)
 
 ## Overview
 The idea behind the conceptual model is to represent comprehensive model for organizations to defend against modern cyber attacks. The model "PREPARE, HUNT, AND RESPOND" will be evolving from the initial release (from version 1.0) to encompass more detailed information and case examples of tools and techniques to each section. The goal is to gather the best publicly available solutions and tools to represent how different sections of the model can be done. The solutions will be demonstrated using our Cyber Range’s organization environments in the case examples.

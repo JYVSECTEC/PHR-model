@@ -55,7 +55,7 @@ The up-coming updates for the model:
 # Main contributors
 The model has been created as a part of Ministry of Education and Culture of Finland funded [CYBERDI](https://jyvsectec.fi/2018/10/cyberdi/) project. The work has been done by specialists of JYVSECTEC and Finland's Police University College.
 
-![alt text](https://github.com/JYVSECTEC/PHR-model/raw/master/images/JYVSECTEC-logo.png "JYVSECTEC")
+![alt text](https://github.com/JYVSECTEC/PHR-model/raw/master/images/JYVSECTEC-logo.png =150 "JYVSECTEC")
 
 ![alt text](https://github.com/JYVSECTEC/PHR-model/raw/master/images/jamk-logo.png "JAMK")
 

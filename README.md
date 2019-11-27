@@ -49,7 +49,7 @@ The up-coming updates for the model:
   - All the sections will be described in more detail during 2020
 - Case examples of different solutions for sections
   - Practical examples on how organizations can use the model are provided as case studies during years 2020-2021
-  - The case studies will be created in our [RGCE Cyber Range](https://jyvsectec.fi/cyber-range/overview/). Using the ready-made business sector specific organization environments we will represent a realistic implementation for  different parts of the model
+  - The case studies will be created in our [RGCE Cyber Range](https://jyvsectec.fi/cyber-range/overview/). Using the ready-made business sector specific organization environments we will represent a realistic implementation for  different parts of the model. You can read more about the Cyber Range from our [Whitepaper](https://jyvsectec.fi/wp-content/uploads/2018/10/JYVSECTEC-cyber-range.pdf)
 - Best practices how to involve police authorities will be implemented as a part of the model during years 2020 - 2021 in collaboration with Finland's Police University College
 
 # Main contributors

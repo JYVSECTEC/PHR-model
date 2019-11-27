@@ -55,7 +55,7 @@ The up-coming updates for the model:
 # Main contributors
 The model has been created as a part of Ministry of Education and Culture of Finland funded [CYBERDI](https://jyvsectec.fi/2018/10/cyberdi/) project. The work has been done by specialists of JYVSECTEC and Finland's Police University College.
 
-![JYVSECTEC](/images/JYVSECTEC-logo.png){ width=50% }
+![JYVSECTEC](/images/JYVSECTEC-logo.png)
 
 ![JAMK University of Applied Sciences](/images/jamk-logo.png "JAMK")
 

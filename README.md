@@ -49,5 +49,9 @@ The up-coming updates for the model:
   - Practical examples on how organizations can use the model are provided as case studies during years 2020-2021
 - Best practices how to involve police authorities will be implemented as a part of the model during years 2020 - 2021
 
-# Contributors
-The model has been created as a part of Finland's Education and Culture Ministry's funded [CYBERDI](https://jyvsectec.fi/2018/10/cyberdi/) project
+# Main contributors
+The model has been created as a part of Ministry of Education and Culture of Finland funded [CYBERDI](https://jyvsectec.fi/2018/10/cyberdi/) project. The work has been done by specialists of JYVSECTEC and Finland's Police University College.
+
+Logo JYVSECTEC
+Logo JAMK.fi
+Logo Police University

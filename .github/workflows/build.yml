@@ -29,4 +29,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/JYVSECTEC/jyvsectec.github.io/actions/workflows/jekyll.yml/dispatches --data '{"ref": "main"}'
+          curl -XPOST \
+                -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" \
+                -H "Accept: application/vnd.github.everest-preview+json" \
+                -H "Content-Type: application/json" https://api.github.com/repos/JYVSECTEC/jyvsectec.github.io/actions/workflows/build.yml/dispatches \
+                --data '{"ref": "main"}'
+                 

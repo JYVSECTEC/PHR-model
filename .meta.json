@@ -1,0 +1,13 @@
+{
+    "child_order": [
+        "Preparation",
+        "Hypotheses",
+        "Data Collection",
+        "Enrichment",
+        "Playbooks",
+        "Triage-Respond",
+        "Eradicate-Recover",
+        "Lessons Learned",
+        "Improvements"
+    ]
+}

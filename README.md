@@ -4,7 +4,7 @@ Prepare, Hunt, and Respond - Conceptual model against cyber attacks by [JYVSECTE
 ## Overview
 The idea behind the conceptual model is to represent a comprehensive model for organizations to defend against modern cyber attacks. The model "PREPARE, HUNT, AND RESPOND" will be evolving from the initial release to encompass more detailed information and case examples of tools and techniques to each section. The goal is to gather the best publicly available information, solutions, and tools to represent how different sections of the model can be done. The solutions will be demonstrated using our Cyber Range’s organization environments in the case examples.
 
-![Prepare, Hunt, and Respond - Conceptual model against cyber attacks](https://github.com/JYVSECTEC/PHR-model/raw/master/images/Prepare_Hunt_Respond.png "Prepare, Hunt, and Respond - Conceptual model against cyber attacks")
+![Prepare, Hunt, and Respond - Conceptual model against cyber attacks](https://github.com/JYVSECTEC/PHR-model/raw/master/_images/Prepare_Hunt_Respond.png "Prepare, Hunt, and Respond - Conceptual model against cyber attacks")
 
 [Download the PDF version](https://github.com/JYVSECTEC/PHR-model/raw/master/Prepare_Hunt_Respond_Poster.pdf)
 
@@ -53,6 +53,6 @@ The up-coming updates for the model:
 # Main contributors
 The model has been created as a part of Ministry of Education and Culture of Finland funded [CYBERDI](https://jyvsectec.fi/2018/10/cyberdi/) project. The work has been done by specialists of JYVSECTEC and Finland's Police University College.
 
-![JYVSECTEC](https://github.com/JYVSECTEC/PHR-model/raw/master/images/JYVSECTEC-logo2.png)![JAMK University of Applied Sciences](https://github.com/JYVSECTEC/PHR-model/raw/master/images/jamk-logo1.png "JAMK")
+![JYVSECTEC](https://github.com/JYVSECTEC/PHR-model/raw/master/_images/JYVSECTEC-logo2.png)![JAMK University of Applied Sciences](https://github.com/JYVSECTEC/PHR-model/raw/master/_images/jamk-logo1.png "JAMK")
 
-![Police University College](https://github.com/JYVSECTEC/PHR-model/raw/master/images/polamk-logo1.png "Police University College")![Ministry of Education and Culture of Finland](https://github.com/JYVSECTEC/PHR-model/raw/master/images/OKM-logo1.png "Ministry of Education and Culture of Finland")
+![Police University College](https://github.com/JYVSECTEC/PHR-model/raw/master/_images/polamk-logo1.png "Police University College")![Ministry of Education and Culture of Finland](https://github.com/JYVSECTEC/PHR-model/raw/master/_images/OKM-logo1.png "Ministry of Education and Culture of Finland")

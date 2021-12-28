@@ -1,0 +1,31 @@
+### Hypothesis example 2: Software source code stealing
+
+Organization called Globex develops software. Organization has an AD environment with about 500 users. Worstations and servers in AD are patched. Environment contains internal Git server where all the software projects are stored. Recently the company did a large purchase by buying 100 new laptops for developer team of a major AI related project. This customer project has been under work for 3 years and rumors about it have spread into other companies that are interested about the technology they are developing.
+
+#### Chain of events
+
+One of the new laptops given to the employees contains extra component in the motherboard. This component gives remote access to the laptop by a malicious actor. When the laptop is first time put into use, it calls to the attacker's CnC server for instructions using rootkit that the malicious component installed on the system. Attacker wants to remain as silent as possible, so it commands the rootkit to slowly send information about laptop's system and files to CnC, so the malware affects the system's performance as little as possible. When attacker has received enough information about the system, it has determined based on the information that the company has internal Git server containing all the software projects. Rootkit activates [keylogger](../../../Data%20Collection/tactics/Credential%20Access/T1056/T1056.001/README.md) on the system to capture user's credentials for the internal Git server account. Next time the user updates the project and insert's his username and password along the process, keylogger captures the combination and sends it to CnC.
+
+With the username and password combination, the malware can now log into the Git server through the user's machine, since the user has not added [MFA](https://attack.mitre.org/mitigations/M1032/) for authentication. User has access to all internal projects in the Git server. Attacker commands the malware to list all the projects that user has access to. After receiving the list, attacker orders the malware to slowly send all the data in projects to CnC. This goes on for six months. Malware keeps sending updated data of the Git projects to the CnC. Eventually person from the company security team notices connections to weird domains from firewall logs. Laptop is seized from the employee and it is investigated. The extra component in motherboard is found and all the laptops from same purchase are also checked for it, but all of them come up clean.
+
+#### Risks associated with the hypothesis
+
+This hypothesis did not contain any vulnerabilities in any software, unlike the previous hypothesis. As a result this kind of data exfiltration can be very harmful for company reputation. Attacker had access to the AI project's source code, which is a big setback, especially since customer owns the project and not the software company itself, which is just developing the project. Attacker was targeting the AI project, but also got access to other projects as well, which made the attack more severe. Depending on the attacker, they may for example sell the projects data in dark web or blackmail the organization for ransom.
+
+Some of the risks listed in the hypothesis are gathered below:
+
+<ol>
+    <li><b>Backdoor in laptop motherboard</b>: One of the new laptops bought had a malicious component attached to it. This component established backdoor to the laptop for attackers interested in the software they were developing. The method for initial access that the attackers used, is called <a href="https://attack.mitre.org/techniques/T1195/003/">hardware supply chain compromise</a>. In this attack the malicious component was visible, but firmware based attacks would leave no visible components to look for. Noticing this kind of attack would require thorough exploration of all new devices components and their firmware. This activity would require lot of extra work and a better investment could for example be a trusted platform module in each system or a SOC service doing threat hunting, which would also be helpful in different threat scenarios.</li>
+    <li><b>Git account had no MFA</b>: If user had added MFA for his Git account, capturing user credentials would have not been enough for the the attacker to gain access to the Git account. There are <a href="https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/">several types</a> of ways to implement MFA, e.g. SMS token or biometric verification.</li>
+    <li><b>Git account had permissions to all the projects</b>: User affected by the malware had an internal Git account with access to all the projects. Attacker acquired the account's credentials using keylogger. Attacker was then able to fetch all the Git projects using user's laptop as a proxy between internal Git server and attacker's CnC server. User account should have only had access to projects he actually was developing and not to all of them. Far less different projects would have been compromised, if this would have been the case.</li>
+    <li><b>Data leak</b>: Attacker was able to transmit data from organization network into their CnC network. Organization did not have any way to stop the data from leaking to internet. One way to mitigate this activity would be more restrictive firewall rules to <a href="https://attack.mitre.org/mitigations/M1037/">filter network traffic</a> or implement some sort of <a href="https://attack.mitre.org/mitigations/M1031/">network intrusion prevention</a>.</li>
+    <li><b>Slow reaction</b>: It took 6 months from the organization to react to this data exfiltration. These incidents can be hard to spot, since you have to manually look for traces of them if there is no <a href="../../../../Preparation/Security Controls/IDS%2fIPS">IDS</a> implemented or other kind of surveillance like SOC sercice. In come cases these events are never detected, especially if attacker has access to system logs and is able to manipulate them, while administrators are not doing any realtime exploration and only rely on logs.</li>
+</ol>
+
+## References
+
+<ul>
+    <li>https://attack.mitre.org/</li>
+    <li>https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/</li>
+</ul>
+

@@ -58,3 +58,12 @@ Sysmon is widely used by the security and threat hunting communities for its abi
 ***Elastic Beats***
 
 [Elastic Beats](https://www.elastic.co/beats/) are open source data shippers that are installed as agents on servers to send data to Elasticsearch or Logstash. Several Beats exist for different data collection purposes, for example, Filebeat for collecting log files, Winlogbeat for Windows Event Log and Auditbeat for audit data.
+
+# Other log sources
+Also other logs are useful that are not collectible from Windows environment.
+
+* DNS logs give you understanding on domains queried in the environment, and can be used to in threat hunting
+* Proxy logs give you visibility of endpoints Internet HTTP/HTTPS related traffic (if your environment includes this functionality)
+* Netflow data give you visibility of IP/Port level conversations between endpoints (both internal and external conversations)
+* Firewall logs give you visibility on what kind of traffic has been allowed and what has been blocked  
+* Application level logs (i.e. web server or email server) give you visibility on activities happening on application level

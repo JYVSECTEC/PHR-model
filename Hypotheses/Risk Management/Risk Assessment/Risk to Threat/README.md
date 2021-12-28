@@ -1,0 +1,12 @@
+## Risk to Threat
+
+Risk to threat is the process of refining risk with a threat actor who would abuse the risk. Defining different threat actors helps organization to envision different kinds of attacks, since the attackers may have variety of goals depending on the attacker. These goals can be achieved using the risks defined during risk management and other risks that were not taken into account. Different threat actors may abuse different risks depending on the goal. E.g. in [1st](../Hypotheses/hypothesis1.md) hypothesis example, the attacker spread ransomware across organization network. Attacker's goal was to gain money. Another threat actor may have just tried to be as quiet as possible to avoid being found like in the [2nd](../Hypotheses/hypothesis2.md) hypothesis example. If risk management team succeeds to notice potential threat actors and their motives, different attack chains can be proactively identified and the organization can prepare for them before they happen.  
+
+Threat modeling can be used to identify threat actors. There are several different threat modeling methodologies are presented in [metholodgies section](../../../Threat Modeling/Methodologies). Some of the methodologies are appropriate for identifying threat actors, like [MITRE ATT&CK](../../../Threat Modeling/Methodologies/MITRE ATT&CK/). ATT&CK knowledge base contains information about different APTs and what tactics they have used previously. Organization can for example view techniques used by certain APT and check if their organization would be vulnerable to such attacks. Checking APTs previous attack targets may also help organizations to clarify, that would they be potential targets for certain APTs. If the previous targets have been operating on same industry area as the organization doing risk management, they should take the APT into account, since the organization might also be targeted by the APT.
+
+When the threat actors are knowledged, [hypotheses](../Hypotheses/) can be created with real actors. This gives a new perspective to hypotheses, since organizations can actually prepare for real threat actors and not just for certain chain of events that could occur. Threat actors should be categorized in order from biggest threat to smallest threat. Biggest threat actors moves should be monitored, so that organization stays up to date with their techniques and targets.
+
+### References
+<ul>
+    <li>https://www.sans.org/reading-room/whitepapers/threatintelligence/quantifying-threat-actor-assessments-39585</li>
+</ul>

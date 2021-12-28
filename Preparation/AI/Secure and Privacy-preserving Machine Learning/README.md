@@ -1,0 +1,9 @@
+### Secure and privacy-preserving machine learning
+
+Machine learning models are usually trained with unecrypted data, which is problematic when dealing with highly sensitive data, where unique identifiers about persons are present or the data could be a vital and sensitive part of a business process. Some machine learning applications could receive data and send predictions to other machines, where there is a possibility for a hijacking of data. 
+
+There are frameworks currently available for encrypted machine learning for the most popular machine learning libraries:
+* [The open-souce CrypTen framework](https://github.com/facebookresearch/CrypTen), which is usable with their PyTorch machine learning framework. The CrypTen creates encrypted tensors, when unencrypted tensors would normally be used. Models are also encrypted, and when inference is run, the model output is decrypted. A blog post about the tool can be found [here.](https://ai.facebook.com/blog/crypten-a-new-research-tool-for-secure-machine-learning-with-pytorch/)
+* Encrypted tensors are also available for TensorFlow and Keras frameworks with [TF-Encrypted](https://github.com/tf-encrypted/tf-encrypted). Code examples for usage of encrypted tensors to TensorFlow and Keras models are provided in [the TF-encrypted repository.](https://github.com/tf-encrypted/tf-encrypted/tree/master/examples/)
+
+Check the code example from the repository's [Encrypted Machine Learning notebook](tf_encrypted.ipynb), where a medical CSV - dataset is first loaded in plaintext and then encrypted. A Keras model is also converted into a encrypted model, which is trained on the encrypted dataset. The model is then used to predict on encrypted data, and the predictions of the model are converted to "plaintext", or in this case, the class which is predicted from input data.

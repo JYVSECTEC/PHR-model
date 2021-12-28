@@ -18,13 +18,13 @@ The model starts with preparations that are critical for an organization to be a
 ## 2. [Hypotheses](./Hypotheses)
 The second section "Hypotheses" encompasses identified threats and attacking vectors against organization. The threats and attacking vectors should be analyzed using TTPs (Tactics, Techniques, and Procedures) that the potential threat actor might use against the organization. The TTPs should be identified and prioritized based on the organization's identified risks. Threat modelling is a recommended method for identifying the TTPs.
 
-## 3. [Data Collection](./Data-Collection)
+## 3. [Data Collection](./Data%20Collection)
 The third section "Data Collection" is a set of identified data sources and types that help to detect if the TTPs in hypotheses section are used against an organization. These data sources should be specified as precisely as possible so there is no need to collect extensive amounts of log data for threat hunting and incident response processes. Also, identifying the essential data based on potential attack vectors and methods helps an organization to utilize the most suitable playbooks in threat hunting and checklists on incident response analysis. The "Data collection" section also includes automated malware analysis of different samples that are gathered from various data sources. The automated malware analysis can encompass multiple methods (i.e. AI, automated workflows for malware analysis, sandboxing) to detect potential malicious files and activities in the environment.
 
 ## 4. [Enrichment](./Enrichment)
 The fourth section "Enrichment" is a set of information that can be used to enrich collected data with organization-specific information. The "Enrichment" section also includes threat intelligence that is utilized to proactively to detect known malicious IoCs (Indicators of Compromise) and TTPs from the environment. Threat intelligence should tightly integrate to an organization's threat hunting and incident response activities, to help identify threat actors and attack vectors. Enrichment can also be tools and solutions to give more information on the malware analysis. Also, for example, IPAM information can used to link IP addresses and domain names to organization's assets automatically.
 
-## 5. [Threat Hunting](./Threat-Hunting)
+## 5. [Threat Hunting](./Threat%20Hunting)
 The fifth section "Threat Hunting" is comprised of threat hunting workflows that are used, either manually or automatically, to identify threats hiding in an organization's environment. The Threat Hunting is a set of actions performed to find methods used by adversaries. These methdos can include (but is not limited to) use of legitimate credentials, sysadmin tools (i.e. Powershell, WMI, and others), services, and systems to conduct the actions on their objectives.
 
 ## 6. [Triage / Respond](./Triage-Respond)
@@ -33,7 +33,7 @@ The sixth section "Triage / Respond" describes how detected malicious activities
 ## 7. [Eradicate / Recover](./Eradicate-Recover)
 The seventh section "Eradicate / Recover" are the actions for isolating and recovering from attack. The aim is to ensure secure operations of the business continuity, confidentiality, and integrity of the data affected by the attack. During the containment and recovery, thorough documentation of actions performed must be done. Also, all the evidence that has been found from the systems and environment needs to be stored in a secure location. The IoCs that had been identified of the incident should documented and used as a tool to understand more thoroughly how the attack happened and how to prevent similar incidents in the future.
 
-## 8. [Lessons Learned](./Lessons-Learned)
+## 8. [Lessons Learned](./Lessons%20Learned)
 The eighth section "Lessons Learned" should be a comprehensive analysis of the whole incident. It should include complete review of the threat hunting and incident response activities performed before detection and after the detection. The idea is to use post-analysis as tool to continuously develop the capabilities of the organization and identify detection gaps, data sources or faulty architecture. Also, post-analysis should be used as a method to develop new threat hunting playbooks, modify existing tools and guidelines, and update documentation. The post-analysis can also identify new, relevant assets for the organization and gaps in personnel's expertise which should be addressed with proper training and exercises.
 
 ## 9. [Improvements](./Improvements)

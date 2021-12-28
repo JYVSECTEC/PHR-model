@@ -34,5 +34,5 @@ attacker's first foothold or initial access.
      * [Firewall investigation checklist](./firewalls_checklist.md)
      * [Network device investigation checklist](./network_device_checklist.md)
      * [Server investigation checklist](./server_checklist.md)
-     * [Workstation investigation checklist](./ workstation_checklist.md)
+     * [Workstation investigation checklist](./workstation_checklist.md)
 11. In addition to the checklists, you might need more detailed investigations depending on nature of the attack and incident. For example, memory forensics might be needed to determine actual methods used by attacker or actual data that attacker was able to access in the system. [Memory Forensics](./Memory-Forensics/README.md) helps to start that

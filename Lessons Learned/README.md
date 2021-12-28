@@ -1,12 +1,8 @@
 # Post-analysis = Lessons Learned
-It is important to conduct an after-action analysis and reporting of the cyber incident/incident. The after-action
-analysis will go through the steps of the incident in detail and try to identify how the incident was handled successfully, what could be improved in the future and what needs to be done to improve the environment so that something similar does not happen again or how to detect and handle it more effectively.
+It is important to conduct an after-action analysis and reporting of the cyber incident/incident. The after-action analysis will go through the steps of the incident in detail and try to identify how the incident was handled successfully, what could be improved in the future and what needs to be done to improve the environment so that something similar does not happen again or how to detect and handle it more effectively.
 
-The lessons learned analysis is used to develop the organisation's capabilities and to address potential gaps and
-vulnerabilities. It can also be seen as a need for further training of staff. Corrections are made to guidelines and
-plans according to the shortcomings identified in the analysis. This is an important part of the organisation's recovery, learning and development process. Lessons learned should also be shared with the appropriate parties
-for dissemination and feedback. In the after-action analysis, it is important to identify which areas need to be
-improved or changed as a result of the incident, for example in security controls, practices, guidelines or policies.
+The lessons learned analysis is used to develop the organisation's capabilities and to address potential gaps and vulnerabilities. It can also be seen as a need for further training of staff. Corrections are made to guidelines and plans according to the shortcomings identified in the analysis. This is an important part of the organisation's recovery, learning and development process. Lessons learned should also be shared with the appropriate parties for dissemination and feedback. In the after-action analysis, it is important to identify which areas need to be improved or changed as a result of the incident, for example in security controls, practices, guidelines or policies.
+
 
 # Recover Checklist
 * Planned recovery process initiated, if necessary: 
@@ -48,8 +44,7 @@ improved or changed as a result of the incident, for example in security control
      * Lessons learned from the walkthrough; how to improve incident handling for future situations
      * Timeline of events and actions from detection to closure of the incident
      * Evaluation of the effectiveness of communication (internal and external)
-* Including in the post-analysis those involved in the management of the incident, the owners of the systems and
-data, management representatives and those who could have helped in the event of an incident
+* Including in the post-analysis those involved in the management of the incident, the owners of the systems and data, management representatives and those who could have helped in the event of an incident
 * Existing continuity and recovery plans and other guidelines reviewed, and corrected for identified deficiencies
 * Updating policies and training staff where necessary
 * Complaining if it is clear that the service provider has acted in breach of contract or practice

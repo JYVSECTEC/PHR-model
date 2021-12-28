@@ -18,7 +18,7 @@ In **quolitative**, potential losses caused by risk are determined using differe
 | Medium (0.5)          | Low (0.5 x 10 = 5)    | Medium (0.5 x 50 = 25)    | Medium (0.5 x 75 = 37.5) | Medium (0.5 x 100 = 50)    |
 | Low (0.1)             | Low (0.1 x 10 = 1)    | Low (0.1 x 50 = 5)        | Low (0.1 x 75 = 7.5)     | Low (0.1 x 100 = 10)       |
 
-As seen from the table above, each risk has rating between 1-100. The rating can be used to reflect seriousness of the risk and should be taken to account when doing [risk evaluation](../Risk Evaluation/).
+As seen from the table above, each risk has rating between 1-100. The rating can be used to reflect seriousness of the risk and should be taken to account when doing [risk evaluation](../Risk%20Evaluation/).
 
 **Quantitative** risk assessment offers more mathematical and objective approach compared to qualitative methods. Quantitative approaches are Monte Carlo method, historical simulation method, IS, ISRAM and Delphi method.
 

@@ -8,7 +8,6 @@
 - Customizable
 
 
-**Also fits in:** yyy,zzz
 
 **How this tool integrates to our PHR model:** 
 With cowrie we try to lure attackers to wrong place, which gives us alert and buys moretime for us to plan our defence and gather threat intelligence 

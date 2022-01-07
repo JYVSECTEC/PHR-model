@@ -86,7 +86,7 @@ PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	Exit
 
 From the command we can see that plugin naming convention is a bit different in Volatility 3. There is a difference atleast in column names and their order in plugin output compared to pslist in Volatility 2, but the plugin output is still mostly same as in Volatility 2.
 
-More information about memory analysis and Volatility plugins can be found from [this documentation](Analyzing-memory-dump.md).
+More information about memory analysis and Volatility plugins can be found from [this documentation](https://github.com/JYVSECTEC/PHR-model/blob/master/Triage-Respond/Investigations/Memory-Forensics/Analyzing-memory-dump.md).
 
 ### References
 

@@ -14,7 +14,7 @@ AI tools and frameworks are commonly available as open source software or softwa
 
 **Creating a Cyber Data Lake**
 
-![Cyber Data Lake](cyberdatalake.png)
+![Cyber Data Lake](https://github.com/JYVSECTEC/PHR-model/blob/master/Preparation/AI/cyberdatalake.png?raw=true)
 
 Papers such as [An AI-based, Multi-stage detection system of banking botnets](https://arxiv.org/pdf/1907.08276.pdf) suggests creating a Cyber Data Lake - a data platform where external and internal data sources are congregated using Big Data tools. External data sources would include open source threat intelligence feeds, such as lists of malicious/phishing domains. The data platform can contain machine learning models, which use the inputs from data sources to create predictions or raise alarms. The data lake would be useful for security teams as a centralized platform to gather and record information. As a centralized platform, the data lake would serve multiple uses, like real-time analytics, datasets for research and development or data monetization.
 

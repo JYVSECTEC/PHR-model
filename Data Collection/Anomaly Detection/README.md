@@ -29,7 +29,7 @@ environment, but most intrusion detection systems can be only used partly to sup
 The minimal version of an anomaly detection system would require data gatherers, preprocessing pipelines, the
 detection model, databases and an visualisation/analysis tools for the results.     
 
-![Anomaly detection system sketch](anomdetsketch.png)   
+![Anomaly detection system sketch](https://github.com/JYVSECTEC/PHR-model/blob/master/Data%20Collection/Anomaly%20Detection/anomdetsketch.png?raw=true)   
     
 **Data gathereres**   
 The data gatherers are used to obtain the data from the live system. The gatherer depends on the required data. For

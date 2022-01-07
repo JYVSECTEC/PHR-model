@@ -4,7 +4,7 @@ Attack Tree is a visual model that describes ways that computer system can be at
 
 Image below contains example of an attack tree with costs included.
 
-![Attack tree with costs for leafs](attack.gif)
+![Attack tree with costs for leafs](https://github.com/JYVSECTEC/PHR-model/blob/master/Hypotheses/Threat%20Modeling/Methodologies/Attack%20Tree/attack.gif?raw=true)
 
 
 **Benefits**:

@@ -530,7 +530,7 @@ sha256sum executable.1484.exe executable.1640.exe
 
 VirusTotal hits for the binaries:
 
-![Binary virustotal results](binary-virustotal-results.png)
+![Binary virustotal results](https://github.com/JYVSECTEC/PHR-model/blob/master/Triage-Respond/Investigations/Memory-Forensics/binary-virustotal-results.png?raw=true)
 
 Since several AV vendors found the process binaries malicious, Cridex may have modified explorer.exe and reader\sl.exe or replaced them with a modified version. These processes memory can be dumped to disk using **memdump**, which extracts all pages accessible to a process and saves the acquired pages to disk. Running memdump to save explorer.exe's and reader\_sl.exe's memory to disk using Volatility 2: 
 

@@ -4,7 +4,7 @@ Security cards is a security related pack of cards. Deck contains cards from 4 d
 
 Example of Adversary's Resources category card Impunity:
 
-![Impunity card](impunity.png)
+![Impunity card](https://github.com/JYVSECTEC/PHR-model/blob/master/Hypotheses/Threat%20Modeling/Methodologies/Security%20Cards/impunity.png?raw=true)
 
 **Benefits**:
 

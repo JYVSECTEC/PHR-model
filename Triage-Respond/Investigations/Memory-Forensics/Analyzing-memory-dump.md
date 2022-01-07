@@ -26,7 +26,7 @@ Analysis will follow [SANS Memory Forensics Cheat Sheet](https://assets.contents
 
 ### Image information for Volatility 2
 
-We start by determining appropriate profile for Volatility 2. As shown in the [README](README.md) example, we can use `imageinfo` plugin for that:
+We start by determining appropriate profile for Volatility 2. As shown in the [README](https://github.com/JYVSECTEC/PHR-model/blob/master/Triage-Respond/Investigations/Memory-Forensics/README.md) example, we can use `imageinfo` plugin for that:
 
 <pre>
 python vol.py -f ~/Documents/malware-samples/cridex.vmem imageinfo

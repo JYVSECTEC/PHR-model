@@ -434,7 +434,7 @@ e00a1143fea8568f5bcbe2793c6b87032ba57f2fdd122266ea799658169d36b2  process.0x821d
 
 VirusTotal gave 61 hits for both of these segments and Cridex was mentioned by several different AV vendors, which most likely means that the processes were injected by Cridex or Cridex has modified the processes binaries causing them to run malicious code when executed.
 
-![VirusTotal results](malfind-virustotal-results.png)
+![VirusTotal results](https://github.com/JYVSECTEC/PHR-model/blob/master/Triage-Respond/Investigations/Memory-Forensics/malfind-virustotal-results.png?raw=true)
 
 ### Checking for rootkits
 

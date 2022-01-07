@@ -4,20 +4,18 @@ Risk management is process of identifying risks from organization, evaluating th
 
 In this documentation the risk management phases are these:
 
-<ol>
-    <li>[Risk assessment](Risk Assessment/)</li>
-    <ol>
-        <li>[Risk Identification](Risk Assessment/Risk Identification/)</li>
-        <li>[Risk Analysis](Risk Assessment/Risk Analysis/)</li>
-        <li>[Risk Evaluation](Risk Assessment/Risk Evaluation)</li>
-        <li>[Hypotheses](Risk Assessment/Hypotheses)</li>
-        <li>[Risk to Threat](Risk Assessment/Risk to Threat)</li>
-    </ol> 
-    <li>[Risk Mitigationt Plan](Risk Mitigation Plan/)</li>
-    <li>[Plan Implementation](Plan Implementation/)</li>
-    <li>[Risk Monitoring](Risk Monitoring/)</li>
-    <li>[Reporting](Reporting/)</li>
-</ol>
+
+1. [Risk assessment](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Assessment/README.md)  
+  1.1 [Risk Identification](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Assessment/Risk%20Identification/README.md)  
+  1.2 [Risk Analysis](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Assessment/Risk%20Analysis/README.md)  
+  1.3 [Risk Evaluation](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Assessment/Risk%20Evaluation/README.md)  
+  1.4 [Hypotheses](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Assessment/Hypotheses/README.md)  
+  1.5 [Risk to Threat](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Assessment/Risk%20to%20Threat/README.md)  
+2. [Risk Mitigationt Plan](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Mitigation%20Plan/README.md)
+3. [Plan Implementation](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Plan%20Implementation/README.md)
+4. [Risk Monitoring](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Risk%20Monitoring/README.md)
+5. [Reporting](https://github.com/JYVSECTEC/PHR-model/tree/master/Hypotheses/Risk%20Management/Reporting/README.md)
+
 
 Steps are divided into their own sections where actions performed in the step are explained. Purpose of these steps and why risk management is done, is to pre-emptively prepare for potential threats that the risks comprise. Damage caused by the threats can be mitigated before the damage happens. Risks that are unknown may cause shockingly more serious consequences than the risks which are prepared for. 
 

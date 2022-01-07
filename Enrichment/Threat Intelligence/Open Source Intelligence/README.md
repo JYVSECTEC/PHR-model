@@ -16,18 +16,18 @@ Some tools provide easy command line access to multiple OSINT sources, for examp
     - APIs may also impose usage restrictions that are lifted when premium access is purchased
 
 **Use cases:**
-- Uploading a suspicious file to VirusTotal to scan it from multiple different virus databases, see [Upload file to Virustotal notebook for an example](upload_file_to_virustotal.ipynb)
+- Uploading a suspicious file to VirusTotal to scan it from multiple different virus databases, see [Upload file to Virustotal notebook for an example](https://github.com/JYVSECTEC/PHR-model/blob/master/Enrichment/Threat%20Intelligence/Open%20Source%20Intelligence/upload_file_to_virustotal.ipynb)
 - Querying IP addresses for geolocation etc. information
-    - See the [Jupyter Notebook for an example](analyze_ip_address.ipynb)
+    - See the [Jupyter Notebook for an example](https://github.com/JYVSECTEC/PHR-model/blob/master/Enrichment/Threat%20Intelligence/Open%20Source%20Intelligence/analyze_ip_address.ipynb)
     - Usually more useful for whitelisting IP addresses due to attackers using proxies.
 - A defender could download a daily threat feed for example from [Mrlooquer threat feed](https://iocfeed.mrlooquer.com/), which provides IPv4 and IPv6 Indicators of Compromise (IoCs) and parse if the IP addresses listed in the feed are found in the defender's network logs. The threat feed is available in JSON or CSV format.
 - Gathering new domain registrations in order to prepare for possible phishing attacks where domains closely related to other common domains (amazon vs amazoon) are registered.
     - The latest four days of newly registered domains can be downloaded from [WhoisDS](https://whoisds.com/newly-registered-domains)
-    - Some countries provide a publicly accessible database of their domain's registrations. In Finland, Traficom provides a database of finnish domain registration data, which includes the holder, postal code and area and registrar of the domain. Check the [notebook](finnish_domains.ipynb) for instructions on how to load finnish domain registrations in OData format to Pandas Dataframes in Python
+    - Some countries provide a publicly accessible database of their domain's registrations. In Finland, Traficom provides a database of finnish domain registration data, which includes the holder, postal code and area and registrar of the domain. Check the [notebook](https://github.com/JYVSECTEC/PHR-model/blob/master/Enrichment/Threat%20Intelligence/Open%20Source%20Intelligence/finnish_domains.ipynb) for instructions on how to load finnish domain registrations in OData format to Pandas Dataframes in Python
 
 **Combining intelligence sources**
 
-- Combining multile threat intelligence sources using [https://github.com/InQuest/ThreatIngestor](ThreatIngestor). The tool aims to easily automate gathering of IoCs from multiple intelligence sources with minimal configuration. The tool provides examples of parsing Twitter feeds and SQS queues to generate YARA rules which are sent to a MISP operator. The image from ThreatIngestor documentation provides an example of how much is possible to automate with a single configuration file: [ThreatIngestor](https://inquest.readthedocs.io/projects/threatingestor/en/latest/_images/mermaid-everything.png)
+- Combining multile threat intelligence sources using [ThreatIngestor](https://github.com/InQuest/ThreatIngestor). The tool aims to easily automate gathering of IoCs from multiple intelligence sources with minimal configuration. The tool provides examples of parsing Twitter feeds and SQS queues to generate YARA rules which are sent to a MISP operator. The image from ThreatIngestor documentation provides an example of how much is possible to automate with a single configuration file: [ThreatIngestor](https://inquest.readthedocs.io/projects/threatingestor/en/latest/_images/mermaid-everything.png)
 
 **List of open source threat intelligence**
 

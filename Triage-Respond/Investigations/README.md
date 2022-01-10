@@ -25,14 +25,14 @@ attacker's first foothold or initial access.
 (i.e. how, when and what the attacker was able to use to carry out the attack)
      * Document findings, IoCs, interventions and their timestamps, and notes
      * Use attack specific checklists to help the investigation:
-        * [Reconnaissance, Phishing, and Social Engineering checklist](./recon_phishing_social_engineering_checklist.md)
-        * [Malware infection checklist](./malware_infection_checklist.md)
-        * [Data Breach checklist](./data_breach_checklist.md)
-        * [DDoS attack checklist](./ddos_attack_checklist.md)
-        * [Large scale or targeted attack checklist](./large_scale_attack_checklist.md)
+        * [Reconnaissance, Phishing, and Social Engineering checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/recon_phishing_social_engineering_checklist.md)
+        * [Malware infection checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/malware_infection_checklist.md)
+        * [Data Breach checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/data_breach_checklist.md)
+        * [DDoS attack checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/ddos_attack_checklist.md)
+        * [Large scale or targeted attack checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/large_scale_attack_checklist.md)
 10. You can also utilize system specific checklists:
-     * [Firewall investigation checklist](./firewalls_checklist.md)
-     * [Network device investigation checklist](./network_device_checklist.md)
-     * [Server investigation checklist](./server_checklist.md)
-     * [Workstation investigation checklist](./workstation_checklist.md)
-11. In addition to the checklists, you might need more detailed investigations depending on nature of the attack and incident. For example, memory forensics might be needed to determine actual methods used by attacker or actual data that attacker was able to access in the system. [Memory Forensics](./Memory-Forensics/README.md) helps to start that
+     * [Firewall investigation checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/firewalls_checklist.md)
+     * [Network device investigation checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/network_device_checklist.md)
+     * [Server investigation checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/server_checklist.md)
+     * [Workstation investigation checklist](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/workstation_checklist.md)
+11. In addition to the checklists, you might need more detailed investigations depending on nature of the attack and incident. For example, memory forensics might be needed to determine actual methods used by attacker or actual data that attacker was able to access in the system. [Memory Forensics](https://github.com/JYVSECTEC/PHR-model/tree/master/Triage-Respond/Investigations/Memory-Forensics/README.md) helps to start that

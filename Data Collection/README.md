@@ -21,7 +21,7 @@ Techniques can be categorized into tactics, which describe an adversary’s tact
 |Boot or Logon Autostart Execution| Registry Run Keys / Startup Folder |  |[ID 13, 11](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Persistence/T1547/T1547.001/README.md)|  |  |  |  |  |
 |Valid Accounts| Default Accounts |  |[ID 4720](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Persistence/T1078/T1078.001/README.md)|[ID 4672](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Privilege%20Escalation/T1078/T1078.001/README.md)|  |  |  |  |
 || Domain Accounts |  |[ID 4720](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Persistence/T1078/T1078.002/README.md)|[ID 4672](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Privilege%20Escalation/T1078/T1078.002/README.md)|  |  |  |  |
-|| Local Accounts |  |[ID 4720](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Persistence/T1078/T1078.003/README.md)|[ID 4672](tactics/Privilege%20Escalation/T1078/T1078.003/README.md)|  |  |  |  |
+|| Local Accounts |  |[ID 4720](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Persistence/T1078/T1078.003/README.md)|[ID 4672](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Privilege%20Escalation/T1078/T1078.003/README.md)|  |  |  |  |
 |Create or Modify System Process| Windows Service |  |  |[ID 7045, 4697](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Privilege%20Escalation/T1543/T1543.003/README.md)| |  |  |  |
 |Indicator Removal on Host| File Deletion |  |  |  |[ID 23](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Defence%20Evasion/T1070/T1070.004/README.md)|  |  |  |
 |Deobfuscate/Decode Files or Information|-|  |  |  |[ID 4103](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Defence%20Evasion/T1140/README.md)|  |  |  |
@@ -29,7 +29,7 @@ Techniques can be categorized into tactics, which describe an adversary’s tact
 |Input Capture|Keylogging|  |  |  |  |[ID 12](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Credential%20Access/T1056/T1056.001/README.md)|  |  |
 |Brute Force|Password Spraying|  |  |  |  |[ID 4625, 4771](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Credential%20Access/T1110/T1110.003/README.md)|  |  |
 |Account Discovery|Local Account|  |  |  |  |  |[ID 1](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Discovery/T1087/T1087.001/README.md)|  |
-||Domain Account|  |  |  |  |  |[ID 1](tactics/Discovery/T1087/T1087.002/README.md)|  |
+||Domain Account|  |  |  |  |  |[ID 1](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Discovery/T1087/T1087.002/README.md)|  |
 |System Network Configuration Discovery|-|  |  |  |  |  |[ID 1](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Discovery/T1016/README.md)|  |
 |File and Directory Discovery|-|  |  |  |  |  |[ID 4103](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Discovery/T1083/README.md)|  |
 |Lateral Tool Transfer|-|  |  |  |  |  |  |[ID 5140](https://github.com/JYVSECTEC/PHR-model/tree/master/Data%20Collection/tactics/Lateral%20Movement/T1570/README.md)|
